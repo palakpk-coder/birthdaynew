@@ -860,7 +860,7 @@ body{font-family:'Lato',sans-serif;overflow-x:hidden;background:#0a0e1a;}
 'use strict';
 
 /* ─── TIMER ─────────────────────────────────────────────── */
-var TARGET = Date.now() + 60000; // 60 seconds from now
+var TARGET = new Date('2026-06-29T00:00:00+05:30').getTime();
 
 function updateTimer(){
   var diff = TARGET - Date.now();
